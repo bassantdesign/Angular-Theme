@@ -1,0 +1,54 @@
+<section id="portfolio" class="py-5">
+    <div class="portfolio_content text-center">
+        <h2>PORTFOLIO</h2>
+        <app-arrow></app-arrow>
+    </div>
+    <div class="container px-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6" *ngFor="let x of products">
+                <div class="portfolio-info">
+                    <img [src]="x.thumbnail" class="w-100" alt="">
+                    <a href="" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#staticBackdrop"
+                    (click)="displayModel(x)">
+                        <div class="portofolio_layer d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-solid fa-plus fa-5x"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header border-bottom-0 text-center d-block">
+                            <button type="button" class="btn-close d-flex mb-3 fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="meal_content">
+                                <h2>{{productInfo.title}}</h2>
+                                <app-arrow></app-arrow>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="model-deails">
+                                <img [src]="productInfo.thumbnail" class="w-100 rounded-3 mb-4" alt="">
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
+                                    recusandae quos quis inventore quisquam velit asperiores, vitae?
+                                    Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer border-top-0 justify-content-center">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            <i class="fa-sharp fa-solid fa-xmark"></i>
+                            Close Window
+                        </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

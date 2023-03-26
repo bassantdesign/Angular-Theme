@@ -1,0 +1,13 @@
+#home{
+    background-color: #1ABC9C;
+    padding-top: 8rem;
+}
+.img-profile{
+    padding-top: 4rem;
+}
+.img-profile .img-profile{
+    width: 15rem;
+}
+.img-profile h1{
+    font-size: 3.5rem;
+}

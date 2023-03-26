@@ -1,0 +1,22 @@
+footer{
+    background-color: #2c3e50;
+}
+.userDetails p{
+    font-size: 1.32rem;
+}
+.userDetails .icon{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all 1s;
+}
+.userDetails .icon:hover{
+    background-color: #fff;
+}
+.userDetails .icon:hover i{
+    color: #000;
+}
+.end{
+    background-color: #1a252f;
+}

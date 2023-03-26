@@ -1,0 +1,48 @@
+/* START PORTFOLIO */
+.portfolio-info img{
+    border-radius: 8px;
+}
+.portfolio_content h2{
+    font-size: 3.5rem;
+    color: #2c3e50;
+}
+#portfolio .portfolio_content .icon-profile i{
+    color: #2c3e50; 
+}
+#portfolio .portfolio-info{
+    position: relative;
+    overflow: hidden;
+}
+.portofolio_layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.portofolio_layer i{
+    display: none;
+}
+.portfolio-info:hover .portofolio_layer{
+    background-color: rgba(26, 188, 156, 0.9)
+}
+.portfolio-info:hover .portofolio_layer i{
+    display: block;
+}
+.portfolio_content{
+    padding-top: 4rem;
+}
+/* END PORTFOLIO */
+
+/* START MODEL */
+.modal-footer .btn-secondary{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.meal_content h2{
+    font-size: 3.5rem; 
+}
+/* END MODEL */

@@ -1,0 +1,9 @@
+.arrow .line-left,
+.arrow .line-right{
+    width: 7rem;
+    height: 0.3rem;
+    background-color: #fff;
+}
+.arrow .icon i{
+    color: #fff;
+}

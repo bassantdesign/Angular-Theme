@@ -1,0 +1,31 @@
+.contact_content h2{
+    font-size: 3.5rem;
+    color: #2c3e50;
+}
+#contact .contact_content .icon-profile i{
+    color: #2c3e50; 
+}
+.form-control{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #e9ecef;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.btn-primary:hover{
+    background-color: #148f77;
+}
+.control-group .one{
+    color: gray;
+}
+.contact_content{
+    padding-top: 4rem;
+}
